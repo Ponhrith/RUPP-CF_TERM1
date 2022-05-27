@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
     float number;
-    printf("Enther the number:");
+    printf("Enter the number:");
     scanf("%f", &number);
-    if (number >= 20.00) { 
+    if (number >= 20) { 
         printf("Too high");
     }   else {
         printf("Thank you!");
