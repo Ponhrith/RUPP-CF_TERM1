@@ -5,13 +5,13 @@ int main(){
     scanf("%f", &number);
     if (number < 10) { 
         printf("Too low");
-    }  else if (number > 10){
+    }  else if (number < 20) {
         printf("Correct");
-    }  else if (number < 20){
-        printf("Correct");
-    }  else {
-        printf("Too high");
     }  
+    
+    if (number > 20){
+        printf("Too high");
+    }
     
 return 0;
 
