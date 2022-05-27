@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    float number;
+    int number;
     printf("Enter the number:");
-    scanf("%f", &number);
+    scanf("%d", &number);
     if (number < 10) { 
         printf("Too low");
     }  else if (number < 20) {
