@@ -13,6 +13,6 @@ int main(){
         printf("Too high");
     }
     
-return 0;
+    return 0;
 
 }
