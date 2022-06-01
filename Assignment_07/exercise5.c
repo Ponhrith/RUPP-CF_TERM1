@@ -9,7 +9,7 @@ int main(){
         printf("Correct");
     }  
     
-    if (number > 20){
+    if (number >= 20){
         printf("Too high");
     }
     
