@@ -2,10 +2,12 @@
 
 void sort(int num[], int size){
 
-    for(int i =0; i<size - 1; i++){
-        for(int j = 0; j < size -i - 1; j++){
-           if(num[j] < num[j+1]){
-               int temp = num[i];
+    for(int i = 0; i<size - 1; i++){
+        for(int j = 0; j < size -i - 1; j++)
+        {
+           if(num[j] < num[j+1])
+           {
+               int temp = num[j];
                num[j] = num[j+1];
                num[j+1] = temp;
            } 
@@ -13,8 +15,10 @@ void sort(int num[], int size){
     }
 }
 
-void printNum(int num[], int size){
-    for(int i = 0; i < size; i++){
+void printNum(int num[], int size)
+{
+    for(int i = 0; i < size; i++)
+    {
         printf("%d", num[i]);
     }
 }
