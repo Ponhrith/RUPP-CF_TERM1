@@ -208,6 +208,9 @@ int main(){
             printf("110"); break;
         case '7':
             printf("111"); break;
+        case '.':
+                printf(".");
+                break;
         default:
             printf("\n Invalid octal digit %c ", octalNum[index]);
             return 0;
