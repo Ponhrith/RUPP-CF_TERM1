@@ -183,7 +183,7 @@ int main(){
 		
 	case 5:
 			char octalNum[100];
-    		//long index = 0; 
+    		
  
     		printf("Enter any octal number: ");
     		scanf("%s", octalNum);
@@ -281,7 +281,6 @@ int main(){
 			
 	case 7:
 			char hex[17];
-    		//long long decimal, place;
     		int y = 0, val, len;
 
     		decimal = 0;
@@ -329,7 +328,7 @@ int main(){
 
     			long long tempDecimal;
     			char hexNum8[65];
-    			//int index, rem;
+    			
     /* Input decimal number from user */
     printf("Enter any decimal number: ");
     scanf("%lld", &decimal);
@@ -359,7 +358,7 @@ int main(){
     		
 	case 9:
 				char hexNum[100];
-				//long int count=0;
+				
 				count=0;
 	printf("Enter a hexadecimal number To Convet it into Binary : ");
 	scanf("%s",hexNum);
